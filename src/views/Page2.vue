@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <h4>Page 2</h4>
-      <Counter />
+      <h4>Page 2</h4>
+        <Counter />
   </div>
 </template>
 
@@ -11,7 +11,9 @@ import Counter from '../components/Counter.vue'
 
 
 @Options({
-  components: {Counter},
+  components: {Counter
+
+  },
 })
-export default class Home extends Vue {}
+export default class Page2 extends Vue {}
 </script>
