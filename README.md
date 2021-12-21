@@ -1,4 +1,4 @@
-# app
+# Counter-VueX-TypeScript
 
 ## Project setup
 ```
